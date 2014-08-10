@@ -21,7 +21,7 @@ This describes a way of both on-ramping folks who are used to writing articles f
 - Perhaps there's the option to 'always import data; don't store on publiclab.org' as well as a 'store data on publiclab.org; update only if there is a more recent version in external repo' option.  This would allow users to decide whether they wanted to control the data externally (re: privacy and etc).  
 - Render LaTeX, so that equations can be incorporated.  This is a key, needed feature.
 
-## Examples
+## Motivating examples
 
 Here are some examples of markdown research notes that Jeff Walker has written up, which would benefit from incorporating this sort of workflow into publiclab.org (they were quite intricate research notes, and it was much easier for Jeff to edit and arrange the files locally than online at publiclab.org; would be great to be able to have publiclab.org 'slurp up' the contents from Jeff's github repo directly into a publiclab.org research note).
 
@@ -30,6 +30,13 @@ Here are some examples of markdown research notes that Jeff Walker has written u
 - http://rawgit.com/walkerjeffd/riffle-ito-apps/master/analyses/20140807_kayak/index.html#gps-data
 
 - http://rawgit.com/walkerjeffd/riffle-ito-apps/master/analyses/20140806_thermistor_water/index.html
+
+## Working Demo
+
+This example uses a form to point to a github index.md file, and pulls in the associated markdown and image files, to be rendered locally on rawgit.com.  The idea for the publiclab.org workflow would be to have a similar form (simplified; and perhaps drag and drop?) located on the "write a research note" page, labeled "Import research note from github repo" or equiv., which would pull in the files from github and render them as the publiclab.org research note:
+
+http://rawgit.com/walkerjeffd/test-repo/master/gist/index.html
+
 
 ## Credits
 
