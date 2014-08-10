@@ -35,7 +35,7 @@ Here are some examples of markdown research notes that Jeff Walker has written u
 
 This example uses a form to point to a github index.md file, and pulls in the associated markdown and image files, to be rendered locally on rawgit.com.  The idea for the publiclab.org workflow would be to have a similar form (simplified; and perhaps drag and drop?) located on the "write a research note" page, labeled "Import research note from github repo" or equiv., which would pull in the files from github and render them as the publiclab.org research note:
 
-http://rawgit.com/walkerjeffd/test-repo/master/gist/index.html
+http://walkerjeffd.github.io/test-repo/embed-md/
 
 
 ## Credits
