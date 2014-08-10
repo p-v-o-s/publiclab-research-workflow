@@ -20,3 +20,7 @@ This describes a way of both on-ramping folks who are used to writing articles f
 - Allow for 'link to github markdown directory' button, which points at github repo, and intelligently imports the relevant files from the github repo?  E.g. it would import index.md, and then parse the relative URL structure in order to import any files in an '/images' or '/data' directory in that github repo
 - Perhaps there's the option to 'always import data; don't store on publiclab.org' as well as a 'store data on publiclab.org; update only if there is a more recent version in external repo' option.  This would allow users to decide whether they wanted to control the data externally (re: privacy and etc).  
 - Render LaTeX, so that equations can be incorporated.  This is a key, needed feature.
+
+## Credits
+
+- This is an idea that came up in discussion with Jeff Walker, whose several recent writeups in markdown are stored in github repos.  He found that his best workflow seemed to be to maintain the markdown files he'd written, as well as the images files they referred to, in his own github repo.  When it came time to publish on publiclab.org, we tried copy-pasting his markdown, and uploading all of the image files individually; but this quickly became a bit painful.  It occurred to us that an option for simply linking a publiclab.org research note to an external repo would be a great feature. 
