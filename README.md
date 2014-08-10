@@ -1,9 +1,6 @@
 publiclab-research-workflow
 ===========================
 
-publiclab-research-workflow
-===========================
-
 ### Overview 
 
 This describes a way of both on-ramping folks who are used to writing articles for traditional scientific publications into the publiclab.org ecosystem; it also describes an option for research note creation that will make writing and maintaining complex research notes much easier for any researcher in the Public Lab community, without interfering with the current work flow that has developed.
